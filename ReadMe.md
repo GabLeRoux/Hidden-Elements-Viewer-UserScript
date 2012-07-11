@@ -57,7 +57,6 @@ Todo
 * Enable per elements hide/show (about to fix it)
 * Fix button position bug in list
 * Better list style (fix too long name)
-* Add a quick variable to show/hide sidebar onload
 * Fix the autoRefresh (it doesn't seem to work atm*)
 * Add branch for web page,
     * will probably change content of the page with description of the script
