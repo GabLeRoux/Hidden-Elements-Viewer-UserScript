@@ -580,14 +580,13 @@
 	{
 		var hev_elementToShow = hev_target.filter(function() {
 		    return $(this).data('hev_unique_id') == hev_unique_id;
+		}).each(function () {
+			$(this).is('.hev_hidden') ? $(this).addClass("hev_hidden_unhide") : false;
+			$(this).is('.hev_visibility') ? $(this).addClass("hev_visibility_unhide") : false;
+			$(this).is('.hev_display') ? $(this).addClass("hev_display_unhide") : false;
+			$(this).is('.hev_opacity') ? $(this).addClass("hev_opacity_unhide") : false;
+			$(this).is('.hev_text-indent') ? $(this).addClass("hev_text-indent_unhide") : false;
 		});
-
-		GM_log("hev - showing " + hev_elementToShow.tagName + "");
-		hev_elementToShow.is('.hev_hidden').addClass("hev_hidden_unhide");
-		hev_elementToShow.is('.hev_visibility').addClass("hev_visibility_unhide");
-		hev_elementToShow.is('.hev_display').addClass("hev_display_unhide");
-		hev_elementToShow.is('.hev_opacity').addClass("hev_opacity_unhide");
-		hev_elementToShow.is('.hev_text-indent').addClass("hev_text-indent_unhide");
 	}
 
 	// Hide specific element
@@ -596,12 +595,13 @@
 	{	
 		var hev_elementToHide = hev_target.filter(function() {
 		    return $(this).data('hev_unique_id') == hev_unique_id;
+		}).each(function () {
+			$(this).is('.hev_hidden') ? $(this).removeClass("hev_hidden_unhide") : false;
+			$(this).is('.hev_visibility') ? $(this).removeClass("hev_visibility_unhide") : false;
+			$(this).is('.hev_display') ? $(this).removeClass("hev_display_unhide") : false;
+			$(this).is('.hev_opacity') ? $(this).removeClass("hev_opacity_unhide") : false;
+			$(this).is('.hev_text-indent') ? $(this).removeClass("hev_text-indent_unhide") : false;
 		});
-		hev_elementToHide.is('.hev_hidden').removeClass("hev_hidden_unhide");
-		hev_elementToHide.is('.hev_visibility').removeClass("hev_visibility_unhide");
-		hev_elementToHide.is('.hev_display').removeClass("hev_display_unhide");
-		hev_elementToHide.is('.hev_opacity').removeClass("hev_opacity_unhide");
-		hev_elementToHide.is('.hev_text-indent').removeClass("hev_text-indent_unhide");
 	}
 
 /*-----------------------------------------------------------------------------------*/
