@@ -1,17 +1,17 @@
 (function() {
-	// ==UserScript==
-	// @name        Hidden Elements Viewer
-	// @namespace   hev_
-	// @description Show and hide some hidden html elements, edit script for preferences
-	// @version     0.1.1
-	// ==/UserScript==
+// ==UserScript==
+// @name        Hidden Elements Viewer
+// @namespace   hev_
+// @description Show and hide some hidden html elements. Hint: edit script for preferences!
+// @version     0.1
+// @include     *
+// ==/UserScript==
 
 // HEY! README: Scroll to the next section for preferences
 
 /*-----------------------------------------------------------------------------------*/
 /*  Some workaround and fixes
 /*-----------------------------------------------------------------------------------*/
-
 
 	// Included jquery in userscript file for chrome compatibility
 	// @require doen't work in chrome :'(

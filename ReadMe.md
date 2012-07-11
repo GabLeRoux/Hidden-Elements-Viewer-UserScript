@@ -37,14 +37,14 @@ Developpement
 Changelog
 ---------
 
-## 0.1.1
+## 0.2
 
 * Fixed some bugs, typos, added comments
 * Better preferences
 * HideOnInit now working :)
 * Per element toggle still not working :'(
 
-## 0.1.0
+## 0.1
 
 * Userscript with a couple of bugs
 * Only show all and hide all button working atm (I need more cofee!)
