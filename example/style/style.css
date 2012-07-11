@@ -49,12 +49,23 @@ h3
 	margin: 0;
 }
 
-a:link {
-	color: lightBlue;
+a {
+	transition: all 0.15s linear;
+	-moz-transition: all 0.15s linear;
+	-webkit-transition: all 0.15s linear;
+	-o-transition: all 0.15s linear;
+	color: #aaa;
+}
+
+a:hover {
+	color: #ddd;
+	text-shadow: 1px 0px 4px #fff;
+	-moz-text-shadow: 1px 0px 4px #fff;
+	-webkit-text-shadow: 1px 0px 4px #fff;
 }
 
 a:visited {
-	color: grey;
+	color: #888;
 }
 
 #header {
