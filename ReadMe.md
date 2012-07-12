@@ -8,7 +8,7 @@ Description
 
 Hidden Elements Viewer is a small project that has a simple goal; help us find some hidden stuff. You got it, it's a simple plugin that reveal some html elements with popular css technics. The goal behind this is to find some issues on some ajax applications, letting us click on some hidden buttons. Pretty simple eh?
 
-<i>Note: This script has been tested on Firefox, but may work on other userscript browsers such as Chrome or Opera.</i>
+<i>Note: This script has been tested on Firefox, but may work on other userscript browsers such as Chrome or Opera with some tweaking.</i>
 
 Usage
 -----
