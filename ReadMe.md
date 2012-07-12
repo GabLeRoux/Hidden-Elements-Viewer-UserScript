@@ -13,7 +13,7 @@ Hidden Elements Viewer is a small project that has a simple goal; help us find s
 Usage
 -----
 
-Simply install the script with Greasemonkey (will add a quick way to do it soon) and activate it. Click on the main switch to show the sidebar and enjoy clicking on some switches.
+An example is worth more than a thousand words. Use Firefox, install greasemonkey and visit the [Hidden Elements Viewer Example Page](http://gableroux.github.com/Hidden-Elements-Viewer-UserScript/example/)! Once installed, enjoy clicking on some switches.
 
 Requirements
 ------------
