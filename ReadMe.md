@@ -42,7 +42,7 @@ Changelog
 * Fixed some bugs, typos, added comments
 * Better preferences
 * HideOnInit now working :)
-* Per element toggle still not working :'(
+* Per element toggle now working (thanks Sylvain) :)
 
 ## 0.1
 
