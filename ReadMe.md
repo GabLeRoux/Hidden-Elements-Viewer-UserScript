@@ -18,7 +18,8 @@ Simply install the script with Greasemonkey (will add a quick way to do it soon)
 Requirements
 ------------
 
-* A [web browser](http://www.mozilla.org/firefox/) compatible with Greasemonkey or userscripts
+* A web browser compatible with Greasemonkey or userscripts
+  * Only tested with [Firefox](http://www.mozilla.org/firefox/)
 * [Greasemonkey plugin](http://www.greasespot.net/)
 
 Disclaimer
