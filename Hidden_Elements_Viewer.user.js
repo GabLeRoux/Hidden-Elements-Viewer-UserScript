@@ -3,7 +3,7 @@
 // @name        Hidden Elements Viewer
 // @namespace   hev_
 // @description Show and hide some hidden html elements. Hint: edit script for preferences!
-// @version     0.1
+// @version     0.2
 // @include     *
 // ==/UserScript==
 
