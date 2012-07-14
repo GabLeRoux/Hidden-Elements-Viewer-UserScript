@@ -8,7 +8,7 @@ Description
 
 Hidden Elements Viewer is a small project that has a simple goal; help us find some hidden stuff. You got it, it's a simple plugin that reveal some html elements with popular css technics. The goal behind this is to find some issues on some ajax applications, letting us click on some hidden buttons. Pretty simple eh?
 
-<i>Note: This script has been tested on Firefox, but may work on other userscript browsers such as Chrome or Opera.</i>
+<i>Note: This script has been tested on Firefox, but may work on other userscript browsers such as Chrome or Opera with some tweaking.</i>
 
 Usage
 -----
@@ -20,7 +20,8 @@ An example is worth more than a thousand words. Use Firefox, install greasemonke
 Requirements
 ------------
 
-* A [web browser](http://www.mozilla.org/firefox/) compatible with Greasemonkey or userscripts
+* A web browser compatible with Greasemonkey or userscripts
+  * Only tested with [Firefox](http://www.mozilla.org/firefox/)
 * [Greasemonkey plugin](http://www.greasespot.net/)
 
 Disclaimer
